@@ -18,7 +18,7 @@ const Index = () => {
   }, [searchQuery]);
 
   return (
-    <div className="min-h-screen px-4 py-12 max-w-6xl mx-auto">
+    <div className="min-h-screen px-4 py-12 max-w-3xl mx-auto">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-4">Directory Explorer</h1>
         <p className="text-gray-600 dark:text-gray-400 max-w-md mx-auto">
@@ -28,7 +28,7 @@ const Index = () => {
 
       <SearchBar value={searchQuery} onChange={setSearchQuery} />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="space-y-4">
         {filteredDirectories.map((entry, index) => (
           <div
             key={entry.id}
