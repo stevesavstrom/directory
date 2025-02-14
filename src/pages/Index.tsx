@@ -37,7 +37,7 @@ const Index = () => {
   return (
     <div className="min-h-screen px-4 py-12 max-w-3xl mx-auto">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-4">Directory Explorer</h1>
+        <h1 className="text-4xl font-bold mb-4">Simple Directory</h1>
         <p className="text-gray-600 dark:text-gray-400 max-w-md mx-auto">
           Browse through our curated collection of resources, documentation, and tools.
         </p>

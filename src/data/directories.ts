@@ -13,13 +13,13 @@ export interface DirectoryEntry {
 export const directories: DirectoryEntry[] = [
   {
     id: '1',
-    name: 'Documentation',
-    description: 'Project documentation and guides',
+    name: 'Steve Savstrom',
+    description: 'Software Engineer, Principal Financial Group',
     link: 'https://docs.example.com',
-    category: 'Resources',
+    category: 'Higgs 2021',
     thumbnail: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d',
     rating: 4.5,
-    tags: ['Guides', 'References', 'Examples']
+    tags: ['Principal Financial Group', 'TypeScript', 'AWS']
   },
   {
     id: '2',
@@ -60,8 +60,59 @@ export const directories: DirectoryEntry[] = [
     thumbnail: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d',
     rating: 3.5,
     tags: ['Components', 'UI', 'Library']
+  },
+  {
+    id: '6',
+    name: 'Community Forum',
+    description: 'Discussion board for developers',
+    link: 'https://forum.example.com',
+    category: 'Community',
+    thumbnail: 'https://images.unsplash.com/photo-1573497019433-60c63d01b203',
+    rating: 4,
+    tags: ['Forum', 'Discussion', 'Help']
+  },
+  {
+    id: '7',
+    name: 'Changelog',
+    description: 'Latest project updates and releases',
+    link: 'https://changelog.example.com',
+    category: 'Resources',
+    thumbnail: 'https://images.unsplash.com/photo-1555685812-4b943f1cb0eb',
+    rating: 4.5,
+    tags: ['Updates', 'Releases', 'Versioning']
+  },
+  {
+    id: '8',
+    name: 'Tutorials',
+    description: 'Step-by-step coding tutorials',
+    link: 'https://tutorials.example.com',
+    category: 'Learning',
+    thumbnail: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b',
+    rating: 5,
+    tags: ['Learning', 'Guides', 'How-To']
+  },
+  {
+    id: '9',
+    name: 'Issue Tracker',
+    description: 'Bug reports and feature requests',
+    link: 'https://issues.example.com',
+    category: 'Development',
+    thumbnail: 'https://images.unsplash.com/photo-1601582583203-d271bb6bcba7',
+    rating: 3.5,
+    tags: ['Bugs', 'Tracking', 'Support']
+  },
+  {
+    id: '10',
+    name: 'CI/CD Pipeline',
+    description: 'Continuous integration and deployment status',
+    link: 'https://cicd.example.com',
+    category: 'DevOps',
+    thumbnail: 'https://images.unsplash.com/photo-1552664730-d307ca884978',
+    rating: 4.5,
+    tags: ['Automation', 'Deployment', 'CI/CD']
   }
 ];
+
 
 // Get all unique tags from directories
 export const getAllTags = () => {
