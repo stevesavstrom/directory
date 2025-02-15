@@ -13,105 +13,107 @@ export interface DirectoryEntry {
 export const directories: DirectoryEntry[] = [
   {
     id: '1',
-    name: 'Steve Savstrom',
-    description: 'Software Engineer, Principal Financial Group',
-    link: 'https://docs.example.com',
-    category: 'Higgs 2021',
-    thumbnail: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d',
-    rating: 4.5,
-    tags: ['Principal Financial Group', 'TypeScript', 'AWS']
+    name: 'The Great Gatsby',
+    description: 'A classic novel by F. Scott Fitzgerald',
+    link: 'https://www.gutenberg.org/ebooks/64317',
+    category: 'Literature',
+    thumbnail: 'https://covers.openlibrary.org/b/id/7334676-L.jpg',
+    rating: 4.7,
+    tags: ['Classic', 'Fiction', 'Novel']
   },
   {
     id: '2',
-    name: 'Source Code',
-    description: 'Main repository and codebase',
-    link: 'https://github.com/example',
-    category: 'Development',
-    thumbnail: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085',
-    rating: 5,
-    tags: ['Code', 'GitHub', 'Open Source']
+    name: '1984',
+    description: 'A dystopian novel by George Orwell',
+    link: 'https://www.georgeorwell.org/1984',
+    category: 'Literature',
+    thumbnail: 'https://covers.openlibrary.org/b/id/15322050-L.jpg',
+    rating: 4.8,
+    tags: ['Dystopia', 'Fiction', 'Political']
   },
   {
     id: '3',
-    name: 'Design Assets',
-    description: 'UI/UX design files and resources',
-    link: 'https://figma.com/file/example',
-    category: 'Design',
-    thumbnail: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158',
-    rating: 4,
-    tags: ['UI', 'UX', 'Figma']
+    name: 'To Kill a Mockingbird',
+    description: 'A Pulitzer Prize-winning novel by Harper Lee',
+    link: 'https://www.harperlee.com/',
+    category: 'Literature',
+    thumbnail: 'https://covers.openlibrary.org/b/id/8226408-L.jpg',
+    rating: 4.9,
+    tags: ['Classic', 'Justice', 'Society']
   },
   {
     id: '4',
-    name: 'API Reference',
-    description: 'API documentation and endpoints',
-    link: 'https://api.example.com',
-    category: 'Development',
-    thumbnail: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b',
-    rating: 4.5,
-    tags: ['API', 'Documentation', 'Technical']
+    name: 'Moby Dick',
+    description: 'An epic novel by Herman Melville',
+    link: 'https://www.gutenberg.org/ebooks/2701',
+    category: 'Literature',
+    thumbnail: 'https://covers.openlibrary.org/b/id/6587891-L.jpg',
+    rating: 4.4,
+    tags: ['Adventure', 'Classic', 'Sea']
   },
   {
     id: '5',
-    name: 'Component Library',
-    description: 'Reusable UI components',
-    link: 'https://components.example.com',
-    category: 'Design',
-    thumbnail: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d',
-    rating: 3.5,
-    tags: ['Components', 'UI', 'Library']
+    name: 'Pride and Prejudice',
+    description: 'A romantic novel by Jane Austen',
+    link: 'https://www.janeausten.org/',
+    category: 'Literature',
+    thumbnail: 'https://covers.openlibrary.org/b/id/8363661-L.jpg',
+    rating: 4.6,
+    tags: ['Romance', 'Classic', 'Society']
   },
   {
     id: '6',
-    name: 'Community Forum',
-    description: 'Discussion board for developers',
-    link: 'https://forum.example.com',
-    category: 'Community',
-    thumbnail: 'https://images.unsplash.com/photo-1573497019433-60c63d01b203',
-    rating: 4,
-    tags: ['Forum', 'Discussion', 'Help']
+    name: 'The Catcher in the Rye',
+    description: 'A novel by J.D. Salinger',
+    link: 'https://www.jd-salinger.com/',
+    category: 'Literature',
+    thumbnail: 'https://covers.openlibrary.org/b/id/8235616-L.jpg',
+    rating: 4.2,
+    tags: ['Fiction', 'Coming-of-Age', 'Classic']
   },
   {
     id: '7',
-    name: 'Changelog',
-    description: 'Latest project updates and releases',
-    link: 'https://changelog.example.com',
-    category: 'Resources',
-    thumbnail: 'https://images.unsplash.com/photo-1555685812-4b943f1cb0eb',
-    rating: 4.5,
-    tags: ['Updates', 'Releases', 'Versioning']
+    name: 'The Hobbit',
+    description: 'A fantasy novel by J.R.R. Tolkien',
+    link: 'https://www.tolkien.co.uk/',
+    category: 'Fantasy',
+    thumbnail: 'https://covers.openlibrary.org/b/id/8333307-L.jpg',
+    rating: 4.7,
+    tags: ['Fantasy', 'Adventure', 'Magic']
   },
   {
     id: '8',
-    name: 'Tutorials',
-    description: 'Step-by-step coding tutorials',
-    link: 'https://tutorials.example.com',
-    category: 'Learning',
-    thumbnail: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b',
-    rating: 5,
-    tags: ['Learning', 'Guides', 'How-To']
+    name: 'The Alchemist',
+    description: 'A philosophical novel by Paulo Coelho',
+    link: 'https://www.paulocoelhoblog.com/',
+    category: 'Self-Help',
+    thumbnail: 'https://covers.openlibrary.org/b/id/8273475-L.jpg',
+    rating: 4.5,
+    tags: ['Philosophy', 'Self-Help', 'Inspiration']
   },
   {
     id: '9',
-    name: 'Issue Tracker',
-    description: 'Bug reports and feature requests',
-    link: 'https://issues.example.com',
-    category: 'Development',
-    thumbnail: 'https://images.unsplash.com/photo-1601582583203-d271bb6bcba7',
-    rating: 3.5,
-    tags: ['Bugs', 'Tracking', 'Support']
+    name: 'Brave New World',
+    description: 'A dystopian novel by Aldous Huxley',
+    link: 'https://www.aldoushuxley.com/',
+    category: 'Literature',
+    thumbnail: 'https://covers.openlibrary.org/b/id/6787126-L.jpg',
+    rating: 4.3,
+    tags: ['Dystopia', 'Fiction', 'Philosophy']
   },
   {
     id: '10',
-    name: 'CI/CD Pipeline',
-    description: 'Continuous integration and deployment status',
-    link: 'https://cicd.example.com',
-    category: 'DevOps',
-    thumbnail: 'https://images.unsplash.com/photo-1552664730-d307ca884978',
-    rating: 4.5,
-    tags: ['Automation', 'Deployment', 'CI/CD']
+    name: 'The Odyssey',
+    description: 'An ancient Greek epic by Homer',
+    link: 'https://www.gutenberg.org/ebooks/1727',
+    category: 'Classics',
+    thumbnail: 'https://covers.openlibrary.org/b/id/7814919-L.jpg',
+    rating: 4.6,
+    tags: ['Epic', 'Mythology', 'Classic']
   }
 ];
+
+
 
 // Get all unique tags from directories
 export const getAllTags = () => {
