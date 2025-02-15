@@ -113,7 +113,6 @@ export const directories: DirectoryEntry[] = [
   }
 ];
 
-
 // Get all unique tags from directories
 export const getAllTags = () => {
   const tagSet = new Set<string>();
