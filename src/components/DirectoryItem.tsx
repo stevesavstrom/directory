@@ -77,7 +77,7 @@ const DirectoryItem = ({ entry }: DirectoryItemProps) => {
   };
 
   return (
-    <Card className="directory-item p-4 bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800 rounded-xl">
+    <Card className="directory-item p-4 bg-white dark:bg-gray-950 border border-gray-200 dark:border-gray-800 rounded-xl shadow-sm">
       <div className="flex gap-4">
         <div className="flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden">
           <img
